@@ -1,0 +1,18 @@
+2026-03-28 19:13:17,496 - ERROR - Error loading data: Error tokenizing data. C error: out of memory
+2026-03-28 19:13:17,496 - CRITICAL - Pipeline failed: Error tokenizing data. C error: out of memory
+2026-03-28 19:29:04,895 - INFO - Data loaded successfully.
+2026-03-28 19:29:04,905 - INFO - Data split completed.
+2026-03-28 19:29:12,168 - INFO - Model trained successfully.
+2026-03-28 19:29:12,196 - INFO - Test MAE: 46713.416827956986
+2026-03-28 19:29:12,231 - INFO - Model saved at models/random_forest.pkl
+2026-03-28 19:29:12,231 - INFO - Pipeline completed successfully.
+2026-04-04 14:47:58,394 - INFO - Data loaded successfully.
+2026-04-04 14:47:58,403 - INFO - Train/Test split done: (1488, 13), (372, 13)
+2026-04-04 14:47:58,410 - INFO - Linear Regression model trained successfully.
+2026-04-04 14:48:03,429 - INFO - Random Forest model trained successfully.
+2026-04-04 14:48:03,429 - INFO - Linear Regression Train MAE: 86394.95047762974
+2026-04-04 14:48:03,477 - INFO - Random Forest Train MAE: 16864.390201612903
+2026-04-04 14:48:03,477 - INFO - Linear Regression Test MAE: 86948.67759509261
+2026-04-04 14:48:03,509 - INFO - Random Forest Test MAE: 46713.416827956986
+2026-04-04 14:48:03,509 - INFO - Model saved as models/linear_regression.pkl
+2026-04-04 14:48:03,543 - INFO - Model saved as models/random_forest.pkl
