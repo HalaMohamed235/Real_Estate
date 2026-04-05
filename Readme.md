@@ -6,7 +6,7 @@ This project is a modularized Machine Learning application that predicts house p
 The app allows users to input property details and receive price estimates using two different algorithms: Linear Regression and Random Forest.
 
 ## Live Demo
-[Insert your Streamlit Cloud Link Here]
+https://hala-realestate.streamlit.app/
 
 ## Features
 - Dual Model Support: Compare predictions from Linear Regression and Random Forest models.
@@ -17,6 +17,7 @@ The app allows users to input property details and receive price estimates using
 
 ## Folder Structure
 
+```text
 Real_Estate/
 ├── app/
 │   └── app.py              # Main Streamlit interface
@@ -33,8 +34,9 @@ Real_Estate/
 │   └── predict_model.py    # Functions for loading models and inference
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
+```
 
-## 📊 Input Features
+## Input Features
 The model makes predictions based on the following 13 features:
 - Property Details: Square footage (sqft), Beds, Baths, Lot Size, Year Built.
 - Financials: Property Tax, Insurance.
@@ -44,7 +46,7 @@ The model makes predictions based on the following 13 features:
 ## Installation & Usage
 
 1. Clone the Repository:
-   git clone [Your-GitHub-Repository-URL]
+   git clone https://github.com/HalaMohamed235/Real_Estate
    cd Real_Estate
 
 2. Install Dependencies:
